@@ -1,5 +1,8 @@
 %% Recursive function to obtain all possible combinations to add upto a certain number
 %% with limits of number of adders and candidate adders
+
+%% Santosh Chandrasekaran, 2017
+
 function adders = findadders(N,numofadders,candidates,repeats,nozeros)
 % N                 : the sum to be achieved
 % numofadders       : the number of entities that have to be added to get N
