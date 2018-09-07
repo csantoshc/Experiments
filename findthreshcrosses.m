@@ -1,3 +1,8 @@
+%% Detects threshold crossings
+%%
+
+%% Santosh Chandrasekaran, 2017
+
 function [uphits, downhits] = findthreshcrosses(signal,threshold,peakdist)
 signalthresh = threshold;
 clear abovethresh crosses upwardslopes uphits
